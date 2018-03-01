@@ -1,0 +1,96 @@
+/*	Name:WangYumeng
+  Section:Introduction to HTML and CSS 	
+  Assignment Description: Index of a lemon pie
+  Contents: Using basic css to create an index*/
+
+ h1{
+ 	font-family: Georgia, Times New Roman, serif;
+ 	font-size: 24pt;
+ 	font-weight: bold;
+ 	text-shadow: 3px 3px #999999;
+ 	text-align: center;
+ }
+font1{/*33%*/
+ 	color: red;
+ 	font-size: 48pt;
+ 	font-weight: bold;
+ 	vertical-align: top;
+ 	padding-bottom: 10px;
+ }
+#banner1{
+	background-image: url("images/rancidbannerbg.png");
+	background-repeat:repeat-x;
+	text-align: center;
+}
+#banner2{
+	background-image: url("images/rottenlargebg.png");
+	background-repeat:repeat-x;
+	text-align: left;
+
+}
+#content{
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 5px 5px 5px gray;
+	background-color:#A2B964;
+}
+#left{
+	float: left;
+	width: 550px;
+	background-color: #EEEEEE;
+
+}
+#right{
+	float: right;
+	width: 250px;
+	background-color:#A2B964;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+
+}
+#left-review{
+	float: left;
+	width: 47%;
+	margin-left: 10px;
+}
+#right-review{
+	float: right;
+	width: 47%;
+	margin-right: 10px;
+}
+
+.comment{
+	font-size: 10pt;
+	background-color: #FFFFFF;
+	border: 2px solid #CCCCCC;
+	border-radius: 20px;
+	font-family: Georgia, Times New Roman, serif;
+	padding: 8px;
+	margin-bottom: 10pt;
+	margin-top: 10pt;
+}
+
+#left p img{
+	float: left;
+	margin-right: 5px;
+}
+#left p{
+	font-size: 10pt;
+	font-family: italic;
+}
+#right dl dt{
+	font-weight: bold;
+	margin-top: 10pt;
+	margin-left: 10pt;
+}
+#right dd ul{
+	list-style-type: none;
+	margin-left: -35px;
+}
+#footer{
+	clear: both;
+	text-align: center;
+}
