@@ -1,0 +1,49 @@
+/*name:WangYumeng
+  section:Introduction to HTML and CSS 	
+  assignment description:web page about a pie recipe
+  contents:using basic css to recreate a recipe*/
+body {
+	background-color: white;
+	background-image: url("images/silverware.jpg");
+	background-attachment: fixed;
+	color:#404040;
+	font-size: 12pt;
+	font-family: Georgia, Garamond, serif ;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+a:link{
+	color: #A4A400;
+	text-decoration: none;
+}
+h1, h2 {
+	color:#A4A400;
+	font-family: Lucida Sans Unicode, Helvetica, Arial,  sans-serif;
+	text-decoration: underline;
+	background-color: #EDEDED;
+	padding-top: 5px;
+	
+}
+h1 {
+	font-weight: bold;
+	text-align: center;
+	font-size: 22pt;
+}
+h2 {
+	text-align: left;
+	font-size: 18pt;
+}
+.quotation{
+	font-family: italic;
+	background-color: #FFFFA8;
+	padding-top: 5px;
+}
+
+.copyright{
+	color: white;
+	font-size: 10pt;
+	text-align: right;
+	background-color: #BFBF56;
+	line-height: 250%;
+}
